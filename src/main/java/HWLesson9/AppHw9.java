@@ -6,9 +6,15 @@ public class AppHw9 {
         chair.colorFurniture = "White";
         chair.material = "Lather";
         chair.numberSetOfFurniture = 6;
-        chair.discount = false;
         chair.priceFurniture = 500;
+        chair.nameFurniture = "Alexandra";
+        chair.yearOfManufacture = 2022;
+        chair.discount = true;
+        System.out.println("***************chairFurnitureInfo****************");
         String chairFurnitureInfo = chair.getFurnitureInfo();
         System.out.println(chairFurnitureInfo);
+        System.out.println("*******chairDiscount***********");
+        Double chairDiscount = chair.getDiscount();
+        System.out.println(chairDiscount);
     }
 }
