@@ -9,7 +9,7 @@ public class AppHw9 {
         chair.priceFurniture = 500;
         chair.nameFurniture = "Alexandra";
         chair.yearOfManufacture = 2022;
-        chair.discount = true;
+        chair.discount = false;
         System.out.println("***************chairFurnitureInfo****************");
         String chairFurnitureInfo = chair.getFurnitureInfo();
         System.out.println(chairFurnitureInfo);

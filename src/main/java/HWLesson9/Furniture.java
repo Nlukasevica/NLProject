@@ -17,7 +17,7 @@ public class Furniture {
         if (discount) {
             return priceFurniture;
         }
-        return priceFurniture = 100;
+        return priceFurniture - 200;
 
 
     }

@@ -49,9 +49,6 @@ public class AppSample {
        paderinHouse.basement = false;
        paderinHouse.price= 555000;
 
-
-
-
         System.out.println(daniel.lastName);
         System.out.println(natasha.yearOfBirth);
         System.out.println (mia.email);
